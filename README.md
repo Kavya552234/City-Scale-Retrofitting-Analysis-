@@ -1,12 +1,13 @@
 # City-Scale Retrofitting Analysis for Ahmedabad
 
-![QGIS](https://img.shields.io/badge/QGIS-3.40-green?logo=qgis&logoColor=white)
-![CityBES](https://img.shields.io/badge/CityBES-UBEM-blue)
-![GIS](https://img.shields.io/badge/GIS-Spatial%20Analysis-success)
-![UBEM](https://img.shields.io/badge/Urban%20Building%20Energy%20Modeling-UBEM-orange)
-![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-Data-brightgreen?logo=openstreetmap)
-![GeoPackage](https://img.shields.io/badge/GeoPackage-.gpkg-lightgrey)
-![Weather](https://img.shields.io/badge/Weather-TMYx%202009--2023-blue)
+![Internship](https://img.shields.io/badge/Internship-SWA%20Consultancy-darkgreen)
+![Project](https://img.shields.io/badge/Project-City--Scale%20Retrofitting-blue)
+![QGIS](https://img.shields.io/badge/QGIS-3.40-green?logo=qgis)
+![CityBES](https://img.shields.io/badge/Platform-CityBES-orange)
+![GIS](https://img.shields.io/badge/GIS-Urban%20Energy%20Modeling-success)
+![OpenStreetMap](https://img.shields.io/badge/Data-OpenStreetMap-brightgreen?logo=openstreetmap)
+![GeoPackage](https://img.shields.io/badge/Format-GeoPackage-lightgrey)
+![TMYx](https://img.shields.io/badge/Weather-TMYx%202009--2023-blue)
 
 <p align="center">
 <img src="Assets/images/swa_consultancy_logo.png" width="250">
