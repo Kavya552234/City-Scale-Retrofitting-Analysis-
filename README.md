@@ -7,7 +7,6 @@
 ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-Data-brightgreen?logo=openstreetmap)
 ![GeoPackage](https://img.shields.io/badge/GeoPackage-.gpkg-lightgrey)
 ![Weather](https://img.shields.io/badge/Weather-TMYx%202009--2023-blue)
-![Status](https://img.shields.io/badge/Project-Ongoing-yellow)
 
 <p align="center">
 <img src="Assets/images/swa_consultancy_logo.png" width="250">
