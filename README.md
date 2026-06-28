@@ -21,22 +21,181 @@ This internship focuses on preparing **CityBES-compatible Urban Building Energy 
 
 # Understanding Building Energy Retrofitting
 
-Before beginning the technical work, the initial phase of the internship involved understanding the theoretical concepts behind urban energy modelling and building retrofitting.
+# Building Energy Fundamentals
 
-The following concepts were studied:
+Before beginning the practical implementation, the initial phase of the internship focused on understanding the theoretical principles of building energy systems, energy-efficient design, and urban retrofitting.
 
-- Building Energy Consumption
-- Urban Building Energy Modeling (UBEM)
-- Building Energy Benchmarking
-- Baseline Energy Simulation
-- Building Energy Performance Index (EPI)
-- Weather Data for Building Simulations
-- Energy Conservation Measures (ECMs)
-- Green Building Concepts
-- Building Envelope Improvements
-- Carbon Emission Reduction through Retrofitting
+These concepts provided the engineering foundation required for preparing Urban Building Energy Modeling (UBEM) datasets and performing city-scale energy simulations.
 
-These concepts formed the foundation required before preparing datasets for CityBES.
+The following topics were studied:
+
+## Building Energy Consumption
+
+Buildings consume energy primarily for:
+
+- Space cooling
+- Space heating
+- Lighting
+- Ventilation
+- Domestic hot water
+- Internal electrical equipment
+
+Understanding how different components contribute to total energy consumption is essential before evaluating retrofit strategies.
+
+---
+
+## Thermal Comfort
+
+Thermal comfort refers to maintaining indoor conditions that are comfortable for occupants while minimizing energy consumption.
+
+Major factors affecting thermal comfort include:
+
+- Air temperature
+- Humidity
+- Solar radiation
+- Air movement
+- Building envelope properties
+
+---
+
+## Building Envelope
+
+The building envelope acts as the boundary between indoor and outdoor environments.
+
+It includes:
+
+- Walls
+- Roof
+- Windows
+- Doors
+- Floors
+
+The envelope significantly influences heat transfer and therefore affects annual building energy consumption.
+
+---
+
+## Heat Transfer Mechanisms
+
+Three modes of heat transfer were studied:
+
+- Conduction
+- Convection
+- Radiation
+
+These mechanisms determine how heat enters or leaves a building and directly impact cooling and heating loads.
+
+---
+
+## Building Insulation
+
+Thermal insulation reduces unwanted heat transfer through the building envelope.
+
+Common insulation materials include:
+
+- Glass Wool
+- Rock Wool
+- Expanded Polystyrene (EPS)
+- Extruded Polystyrene (XPS)
+- Polyurethane Foam
+
+Proper insulation improves energy efficiency and reduces cooling demand.
+
+---
+
+## Building Energy Retrofitting
+
+Building retrofitting involves upgrading existing buildings to improve energy performance without complete reconstruction.
+
+Typical retrofit measures include:
+
+- Roof insulation
+- Wall insulation
+- High-performance glazing
+- LED lighting
+- Efficient HVAC systems
+- Improved building envelope
+- Renewable energy integration
+
+Retrofitting reduces operational energy consumption, electricity demand, and greenhouse gas emissions while improving occupant comfort.
+
+<p align="center">
+<img src="Assets/images/Before_After_retrofitting.png" width="750">
+</p>
+
+The figure above illustrates the transformation of an existing building into an energy-efficient building after implementing retrofit measures.
+
+---
+
+## Urban Building Energy Modeling (UBEM)
+
+Urban Building Energy Modeling (UBEM) extends traditional building energy simulation from a single building to an entire city or district.
+
+Instead of analysing one building, UBEM evaluates hundreds or thousands of buildings simultaneously using GIS data, weather information, and building characteristics.
+
+This approach enables planners to estimate district-level:
+
+- Energy consumption
+- Peak electricity demand
+- Carbon emissions
+- Retrofit potential
+
+---
+
+## Building Energy Benchmarking
+
+Building energy benchmarking compares a building's energy performance against standard reference values.
+
+The most commonly used indicator is:
+
+**Energy Performance Index (EPI)**
+
+\[
+EPI=\frac{Annual\ Energy\ Consumption}{Gross\ Floor\ Area}
+\]
+
+Benchmarking helps identify inefficient buildings and estimate potential energy savings.
+
+---
+
+## Energy Performance Indicators
+
+Several performance indicators commonly used in building energy analysis were studied before beginning CityBES.
+
+These include:
+
+- Site Energy Use Intensity (Site EUI)
+- Source Energy Use Intensity (Source EUI)
+- Electricity Use Intensity (EUI)
+- Peak Electricity Load Intensity
+- Cooling Electricity Intensity
+- Heating Energy Intensity
+- Internal Lighting Energy Intensity
+- Internal Equipment Energy Intensity
+- Operational Greenhouse Gas (GHG) Intensity
+
+These indicators later become the primary outputs generated by CityBES.
+
+---
+
+## Weather Data in Building Simulation
+
+Outdoor weather conditions strongly influence building energy consumption.
+
+Typical Meteorological Year (TMY) weather datasets provide:
+
+- Dry bulb temperature
+- Relative humidity
+- Solar radiation
+- Wind speed
+- Wind direction
+
+CityBES later uses these parameters to perform annual building energy simulations.
+
+---
+
+## Why this theoretical study?
+
+Understanding these concepts was necessary before preparing GIS datasets because CityBES requires both geometric information (building footprints, height, stories, area) and engineering information (weather, energy benchmarks, building archetypes) to generate reliable baseline energy simulations.
 
 <p align="center">
 <img src="Assets/images/Before_After_retrofitting.png" width="700">
