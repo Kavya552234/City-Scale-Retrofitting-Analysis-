@@ -392,7 +392,7 @@ Example attribute tables:
 
 <p align="center">
 <img src="Assets/images/Navrangpura_attribute_table.png" width="900">
-</p>
+</p> 
 
 <p align="center">
 <img src="Assets/images/Thatlej_attribute_table.png" width="900">
