@@ -303,7 +303,7 @@ Copernicus Browser was explored for Sentinel satellite imagery and land surface 
 ## Google Earth Pro
 
 <p align="center">
-<img src="Assets/images/Google earth pro_building.png" width="700">
+<img src="Assets/images/Google_earth_pro_building.png" width="700">
 </p>
 
 Google Earth Pro was used for visual verification of buildings and manual estimation of building heights wherever required.
@@ -391,7 +391,7 @@ The attribute table was enriched with:
 Example attribute tables:
 
 <p align="center">
-<img src="Assets/images/Navrangpura_attribute table.png" width="900">
+<img src="Assets/images/Navrangpura_attribute_table.png" width="900">
 </p>
 
 <p align="center">
