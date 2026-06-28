@@ -1,4 +1,4 @@
-# 🏙️ City-Scale Retrofitting Analysis for Ahmedabad
+# City-Scale Retrofitting Analysis for Ahmedabad
 
 <p align="center">
 <img src="Assets/images/swa_consultancy_logo.png" width="250">
