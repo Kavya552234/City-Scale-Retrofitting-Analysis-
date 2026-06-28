@@ -1,0 +1,20 @@
+"Navrangpura, Thaltej",,,,
+,,,,
+,,,,
+Parameter,Value,Unit,,References
+General Information,,,,
+Building Type,Residential (Apartment / Multi-family housing),-,,1. Kalluri et al. (2022) – The Way Forward for Building Energy Benchmarking in India (BuildSys 2022). Gives residential EUI benchmark (~60 kWh/m²/year).
+Climate,Hot-dry (Ahmedabad),-,,https://ap.wps.com/cms/docs/d/cbCaeazEd8L8GlfK
+,,,,
+Occupancy,Urban residential,-,,"2. GBPN & CEPT University (2014) – Residential Buildings in India: Energy Use Projections and Savings Potentials. Provides Ahmedabad climate data, residential energy modelling, appliance surveys, and EPI analysis."
+Baseline Energy Metrics,,,,https://ap.wps.com/cms/docs/d/cbCaegrpenfdBwTd
+Site Energy Use Intensity,60,kWh/m²/year,,
+Source Energy Use Intensity,185,kWh/m²/year,,3. Energy Conservation Building Code (ECBC) – Residential lighting and internal load guidance.
+Electricity Use Intensity,60,kWh/m²/year,,4. EnergyPlus Residential Prototype Buildings – Peak load and internal gains used internationally as archetype values.
+Natural Gas Use Intensity,0,kWh/m²/year ,,5. LBNL / CityBES documentation – Building archetype assumptions and benchmark methodology.
+Cooling Electricity Intensity,18,kWh/m²/year,,
+Heating Energy Intensity,0.5,kWh/m²/year,,
+Internal Lighting Intensity,9,kWh/m²/year,,
+Internal Equipment Intensity,22,kWh/m²/year,,
+Peak Electricity Load Intensity,35,W/m² or kW/m² ,,
+Operational GHG Intensity,42,kgCO₂e/m²/year,,
