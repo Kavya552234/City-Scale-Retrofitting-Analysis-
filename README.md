@@ -118,9 +118,11 @@ Typical retrofit measures include:
 
 Retrofitting reduces operational energy consumption, electricity demand, and greenhouse gas emissions while improving occupant comfort.
 
-# Test
+<p align="center">
 
-![Logo](Assets/images/Before_After_retrofitting.png)
+<img src="Assets/images/Before_After_retrofitting.png" width="750">
+
+</p>
 
 The figure above illustrates the transformation of an existing building into an energy-efficient building after implementing retrofit measures.
 
