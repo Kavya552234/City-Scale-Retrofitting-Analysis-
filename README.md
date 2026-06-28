@@ -5,9 +5,11 @@
 </p>
 
 ## Research Internship
+**Intern:** Gullapalli Kavya Durga Sri
+
 **Organization:** SWA Consultancy
 
-**Duration:** June 2026 – July 2026
+**Duration:** June 14, 2026 – July 14, 2026
 
 ---
 
