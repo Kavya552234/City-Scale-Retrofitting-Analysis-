@@ -1,5 +1,14 @@
 # City-Scale Retrofitting Analysis for Ahmedabad
 
+![QGIS](https://img.shields.io/badge/QGIS-3.40-green?logo=qgis&logoColor=white)
+![CityBES](https://img.shields.io/badge/CityBES-UBEM-blue)
+![GIS](https://img.shields.io/badge/GIS-Spatial%20Analysis-success)
+![UBEM](https://img.shields.io/badge/Urban%20Building%20Energy%20Modeling-UBEM-orange)
+![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-Data-brightgreen?logo=openstreetmap)
+![GeoPackage](https://img.shields.io/badge/GeoPackage-.gpkg-lightgrey)
+![Weather](https://img.shields.io/badge/Weather-TMYx%202009--2023-blue)
+![Status](https://img.shields.io/badge/Project-Ongoing-yellow)
+
 <p align="center">
 <img src="Assets/images/swa_consultancy_logo.png" width="250">
 </p>
