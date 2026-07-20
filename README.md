@@ -18,7 +18,7 @@
 
 **Organization:** SWA Consultancy
 
-**Duration:** June 14, 2026 – July 14, 2026
+**Duration:** May 14, 2026 – July 18, 2026
 
 ---
 
