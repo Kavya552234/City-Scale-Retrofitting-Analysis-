@@ -318,7 +318,7 @@ Therefore, OpenStreetMap was selected as the primary GIS data source.
 
 ---
 
-# Importing Building Footprints using QuickOSM
+# 4. Importing Building Footprints using QuickOSM
 
 <p align="center">
 <img src="Assets/images/QuickOSM plugin in QGIS.png" width="700">
@@ -337,7 +337,7 @@ The following locations were explored:
 
 ---
 
-# Extracting Residential Buildings
+# 5. Extracting Residential Buildings
 
 Initially, all building footprints were imported from OpenStreetMap.
 
@@ -373,7 +373,7 @@ The same workflow was repeated for all study locations.
 
 ---
 
-# Preparing Building Attributes
+# 6. Preparing Building Attributes
 
 After obtaining residential building footprints, additional attributes required for CityBES were prepared.
 
@@ -402,7 +402,7 @@ Random construction years were assigned within realistic ranges where public rec
 
 ---
 
-# Challenge: Missing Building Level Data
+# 7. Challenge: Missing Building Level Data
 
 A major challenge encountered during dataset preparation was the absence of **building level (number of stories)** information in some regions.
 
@@ -435,7 +435,7 @@ The final study locations selected were:
 
 ---
 
-# Building Size Classification
+# 8. Building Size Classification
 
 To support future benchmark assignment and visualization, residential buildings were classified into three size categories based on total floor area.
 
@@ -457,7 +457,7 @@ To support future benchmark assignment and visualization, residential buildings 
 
 ---
 
-# Weather Dataset Preparation
+# 9. Weather Dataset Preparation
 
 Weather data is an essential input for CityBES energy simulations.
 
@@ -471,7 +471,7 @@ The selected dataset represents weather observations from **2009–2023**, provi
 
 ---
 
-## Python-Based Dataset Enhancement
+## 10. Python-Based Dataset Enhancement
 
 The exported GeoJSON datasets contained only the geometric and basic building attributes required by CityBES. However, to accurately represent Ahmedabad residential buildings, additional operational parameters had to be incorporated into every building feature.
 
@@ -520,7 +520,7 @@ Only the required parameters were customized, while all remaining operational pa
 
 *GeoJSON dataset after integrating the `additional_json` object into every building feature.*
 
-# EnergyPlus Simulation Workflow
+# 11. EnergyPlus Simulation Workflow
 
 After validating the prepared GeoJSON datasets and ensuring compatibility with the CityBES data requirements, the simulation workflow was continued using **EnergyPlus** for annual building energy analysis.
 
@@ -588,4 +588,83 @@ Performance Comparison
 
 *EnergyPlus input model (IDF) together with the selected Ahmedabad EPW weather file.*
 
+# 12. Baseline Energy Simulation Results
+
+Annual baseline simulations were performed in **EnergyPlus** to evaluate the existing energy performance of the residential building stock before implementing any retrofit measures.
+
+The baseline models represent the existing construction characteristics, glazing systems, HVAC configuration, and operational schedules of residential buildings in Ahmedabad. These simulations establish the reference case against which the effectiveness of the proposed retrofit strategies is evaluated.
+
+Two residential districts were analyzed:
+
+- **Navrangpura**
+- **Thaltej**
+
+## 12.1 Navrangpura District
+
+| Parameter           | Value         |
+| ------------------- | ------------- |
+| Total Building Area | 825269.59 m²  |
+| Conditioned Area    | 412634.79 m²  |
+| Total Site Energy   | 429048.28 GJ  |
+| Total Source Energy | 1358795.89 GJ |
+| Site EUI            | 519.89 MJ/m²  |
+| Source EUI          | 1646.49 MJ/m² |
+
+<p align="center">
+<img src="Images/Navrangpura_Baseline_PieChart.png" width="65%">
+</p>
+
+*Figure 12.1: Annual end-use energy distribution for the Navrangpura baseline model.*
+
+| End Use            | Energy (GJ) |
+| ------------------ | ----------: |
+| Cooling            |   139588.60 |
+| Interior Lighting  |   156154.21 |
+| Interior Equipment |   130128.51 |
+| Fans               |     3176.96 |
+| Heating            |           0 |
+
+### Key Observations
+
+- Interior lighting accounts for the largest share of annual electricity consumption.
+- Cooling represents the second-largest energy consumer due to Ahmedabad's hot climate.
+- Interior equipment contributes significantly to the total annual energy demand.
+- Heating energy is negligible because residential buildings rarely require space heating.
+- The baseline model establishes the reference energy performance for subsequent retrofit analysis.
+
+## 12.2 Thaltej District
+
+| Parameter           |         Value |
+| ------------------- | ------------: |
+| Total Building Area | 1191137.13 m² |
+| Conditioned Area    |  595568.57 m² |
+| Total Site Energy   |  651649.56 GJ |
+| Total Source Energy | 2063774.14 GJ |
+| Site EUI            |  547.08 MJ/m² |
+| Source EUI          | 1732.61 MJ/m² |
+
+<p align="center">
+<img src="Images/Thaltej_Baseline_PieChart.png" width="65%">
+</p>
+
+*Figure 12.2: Annual end-use energy distribution for the Thaltej baseline model.*
+
+| End Use            | Energy (GJ) |
+| ------------------ | ----------: |
+| Cooling            |   233170.63 |
+| Interior Lighting  |   225382.20 |
+| Interior Equipment |   187818.50 |
+| Fans               |     5278.22 |
+| Heating            |           0 |
+
+- Cooling is the dominant end-use because of the larger residential building stock.
+- Interior lighting and equipment contribute substantially to annual electricity consumption.
+- Heating demand is insignificant under Ahmedabad's climatic conditions.
+- Thaltej consumes more total energy than Navrangpura due to its greater built-up area.
+
+## Overall Analysis
+
+The baseline simulations indicate that **cooling, interior lighting, and interior equipment** dominate the annual electricity consumption of residential buildings in both study areas.
+Although Thaltej exhibits higher total energy consumption than Navrangpura, this is primarily attributed to its larger building stock and conditioned floor area. When normalized using Energy Use Intensity (EUI), both districts demonstrate comparable energy performance.
+These observations highlight that improving the thermal performance of the building envelope and increasing cooling system efficiency offer the greatest potential for reducing annual energy consumption in Ahmedabad's residential sector.
 
