@@ -515,7 +515,7 @@ Only the required parameters were customized, while all remaining operational pa
 ### Updated GeoJSON Dataset
 
 <p align="center">
-<img src="Assets/images/Thaltej_After_adding_additional_json_code.png" width="85%">
+<img src="Assets/images/Thatlej_After_adding_additional_json_code.png" width="85%">
 </p>
 
 *GeoJSON dataset after integrating the `additional_json` object into every building feature.*
