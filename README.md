@@ -913,3 +913,78 @@ The comparative analysis demonstrates that the proposed retrofit strategy substa
 - Interior equipment energy remained unchanged because equipment schedules and loads were not modified during the retrofit simulations.
 - The results confirm that improvements to the building envelope and cooling system are highly effective for Ahmedabad's cooling-dominated climate.
 
+# 16. Tools and Technologies Used
+
+The project involved the integration of Geographic Information Systems (GIS), building energy simulation software, programming tools, and open geospatial datasets to develop a complete Urban Building Energy Modeling (UBEM) workflow.
+
+| Category | Tool / Technology | Purpose |
+|----------|-------------------|---------|
+| GIS Software | QGIS | Spatial data processing, visualization, and attribute generation |
+| Geospatial Data | OpenStreetMap (QuickOSM) | Building footprint extraction |
+| Building Height Estimation | Google Earth Pro | Building height validation |
+| Additional Data Sources | VEDAS, Bhuvan, Ahmedabad 3D City Model, Copernicus Browser | Building geometry and satellite data |
+| Programming Language | Python | GeoJSON automation and dataset enhancement |
+| Data Format | GeoJSON | CityBES-compatible building dataset |
+| Building Energy Simulation | EnergyPlus 26.1.0 | Annual building energy simulations |
+| Weather Data | Climate.OneBuilding (TMYx) | Ahmedabad weather file (EPW) |
+| Spreadsheet Software | Microsoft Excel | Data analysis and graph generation |
+| Documentation | LaTeX (Overleaf) | Technical report preparation |
+| Version Control | Git & GitHub | Project documentation and source code management |
+
+# 17. Challenges Faced
+
+During the development of the project, several practical challenges were encountered while preparing the datasets and performing large-scale building energy simulations.
+
+### Challenge 1 — Incomplete Building Attributes
+
+OpenStreetMap datasets did not contain complete information such as building heights, construction year, and number of storeys for many residential buildings.
+
+**Solution:** Building heights were estimated using Google Earth Pro, Ahmedabad 3D City Model, satellite imagery, and engineering assumptions.
+
+---
+
+### Challenge 2 — GeoJSON Compatibility
+
+The exported GeoJSON files required modifications before they could be used for building energy simulations.
+
+**Solution:** Python scripts were developed to automatically append Ahmedabad-specific operational parameters using the `additional_json` object.
+
+---
+
+### Challenge 3 — Simulation Input Preparation
+
+Preparing simulation-ready building models required careful verification of geometry, mandatory attributes, weather files, HVAC parameters, schedules, and construction properties.
+
+**Solution:** Multiple validation steps were performed before executing the EnergyPlus simulations.
+
+---
+
+### Challenge 4 — Computational Time
+
+Annual EnergyPlus simulations for large urban building datasets required significant computational resources and execution time.
+
+- Baseline Simulation (Navrangpura): **~20 hours**
+- Baseline Simulation (Thaltej): **~20 hours**
+- Retrofit Simulation (Navrangpura): **~6 hours**
+- Retrofit Simulation (Thaltej): **~8 hours**
+
+Despite the long simulation times, the generated outputs enabled a comprehensive comparison between baseline and retrofit building energy performance.
+
+# 18. Future Scope
+
+The developed workflow provides a strong foundation for extending Urban Building Energy Modeling to larger regions and more advanced applications.
+
+Possible future enhancements include:
+
+- Extend the workflow to cover the entire Ahmedabad city.
+- Include commercial, institutional, and mixed-use buildings.
+- Evaluate additional Energy Conservation Measures (ECMs).
+- Perform life-cycle cost and economic feasibility analysis.
+- Integrate renewable energy systems such as rooftop solar PV.
+- Develop AI/Machine Learning models for automated retrofit recommendations.
+- Build an interactive GIS dashboard for visualization and decision support.
+- Validate simulation results using measured building energy consumption data.
+- Automate the complete GIS-to-EnergyPlus workflow for large-scale urban analysis.
+- Apply the methodology to other Indian cities for comparative energy assessments.
+
+
