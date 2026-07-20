@@ -520,3 +520,72 @@ Only the required parameters were customized, while all remaining operational pa
 
 *GeoJSON dataset after integrating the `additional_json` object into every building feature.*
 
+# EnergyPlus Simulation Workflow
+
+After validating the prepared GeoJSON datasets and ensuring compatibility with the CityBES data requirements, the simulation workflow was continued using **EnergyPlus** for annual building energy analysis.
+
+The validated building models were configured with the selected **Ahmedabad Typical Meteorological Year (TMYx)** weather file and simulated under baseline operating conditions to establish the existing energy performance of the residential buildings.
+
+Subsequently, retrofit models were prepared by modifying the required building and system parameters. These models were simulated under the same climatic conditions to enable a direct comparison with the baseline case.
+
+The complete simulation workflow is illustrated below.
+
+<p align="center">
+<img src="Images/EnergyPlus_Workflow.png" width="85%">
+</p>
+
+---
+
+## Simulation Inputs
+
+The EnergyPlus simulations were performed using the following inputs:
+
+| Parameter | Description |
+|-----------|-------------|
+| Simulation Engine | EnergyPlus 26.1.0 |
+| Weather File | Ahmedabad Intl. AP (SRC-TMYx) |
+| Simulation Type | Annual (8760 hours) |
+| Building Type | Residential Buildings |
+| Study Areas | Navrangpura and Thaltej |
+| Simulation Cases | Baseline and Retrofit |
+
+---
+
+## Performance Indicators
+
+The simulation results were evaluated using the following performance indicators:
+
+- Annual Site Energy
+- Annual Source Energy
+- Energy Use Intensity (EUI)
+- End-use Electricity Consumption
+- Cooling Energy Demand
+- Operational Carbon Emissions
+
+The results obtained from the baseline and retrofit simulations are presented in the following sections.
+
+OpenStreetMap
+      ↓
+QGIS Processing
+      ↓
+GeoJSON Generation
+      ↓
+Python Dataset Enhancement
+      ↓
+Dataset Validation
+      ↓
+EnergyPlus Simulation
+      ↓
+Baseline Results
+      ↓
+Retrofit Simulation
+      ↓
+Performance Comparison
+
+<p align="center">
+<img src="Images/EnergyPlus_Input_Files.png" width="85%">
+</p>
+
+*EnergyPlus input model (IDF) together with the selected Ahmedabad EPW weather file.*
+
+
