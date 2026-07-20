@@ -515,7 +515,7 @@ Only the required parameters were customized, while all remaining operational pa
 ### Updated GeoJSON Dataset
 
 <p align="center">
-<img src="Assets/images/Thaltej-After_adding_additional_json_code.png" width="85%">
+<img src="Assets/images/Thaltej_After_adding_additional_json_code.png" width="85%">
 </p>
 
 *GeoJSON dataset after integrating the `additional_json` object into every building feature.*
@@ -577,7 +577,7 @@ Retrofit Simulation
 Performance Comparison
 
 <p align="center">
-<img src="Assets/images/Energy_Plus.png" width="85%">
+<img src="Assets/images/Energy_plus.png" width="85%">
 </p>
 
 *Figure 11.1: EnergyPlus input model (IDF) together with the selected Ahmedabad EPW weather file.*
@@ -614,7 +614,7 @@ Two residential districts were analyzed:
 | Heating            |           0 |
 
 <p align="center">
-<img src="Assets/images/Navrangpura_end_use_pie_chart.png" width="65%">
+<img src="Assets/images/Navrangpura_end_use_pie chart.png" width="65%">
 </p>
 
 *Figure 12.1: Annual end-use energy distribution for the Navrangpura baseline model.*
@@ -734,7 +734,7 @@ The retrofit significantly reduced the thermal transmittance (U-value) of the bu
 Lower U-values indicate reduced heat transfer through the building envelope, resulting in lower cooling demand during hot weather.
 
 <p align="center">
-<img src="Assets/images/U_value_calculations.png" width="80%">
+<img src="Assets/images/U_value_caluculations.png" width="80%">
 </p>
 
 *Figure 13.3: Comparison of baseline and retrofit thermal transmittance values.*
