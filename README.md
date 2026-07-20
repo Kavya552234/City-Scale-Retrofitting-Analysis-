@@ -855,3 +855,59 @@ The retrofit simulations demonstrate that improvements to the building envelope 
 Both Navrangpura and Thaltej exhibited lower site energy, source energy, Energy Use Intensity (EUI), cooling demand, and operational carbon emissions after retrofit implementation. These improvements confirm the effectiveness of the proposed retrofit strategy under Ahmedabad's hot climatic conditions.
 
 The detailed quantitative comparison between the baseline and retrofit models is presented in the following section.
+
+# 15. Baseline vs Retrofit Performance Comparison
+
+To quantify the effectiveness of the proposed retrofit strategy, the baseline and retrofit simulation results were compared for both residential districts. The comparison includes annual energy consumption, Energy Use Intensity (EUI), cooling demand, and operational carbon emissions.
+
+The percentage reduction for each parameter was calculated using:
+
+Reduction (%) = ((Baseline − Retrofit) / Baseline) × 100
+
+## 15.1 Navrangpura District
+
+| Parameter                       |   Baseline |   Retrofit |  Reduction |
+| ------------------------------- | ---------: | ---------: | ---------: |
+| Total Site Energy (GJ)          |  429048.28 |  359939.78 | **16.11%** |
+| Total Source Energy (GJ)        | 1358795.89 | 1139929.29 | **16.11%** |
+| Site Energy Intensity (MJ/m²)   |     519.89 |     436.15 | **16.11%** |
+| Source Energy Intensity (MJ/m²) |    1646.49 |    1381.28 | **16.11%** |
+| Cooling Energy (GJ)             |  139588.60 |   97069.89 | **30.46%** |
+| Interior Lighting (GJ)          |  156154.21 |  130128.51 | **16.67%** |
+| Interior Equipment (GJ)         |  130128.51 |  130128.51 |     **0%** |
+| Fan Energy (GJ)                 |    3176.96 |    2612.87 | **17.75%** |
+
+### Summary
+
+The retrofit strategy reduced annual site energy consumption by approximately **16.1%**, while cooling energy demand decreased by more than **30%**. Lower Energy Use Intensity (EUI) and operational carbon emissions demonstrate the effectiveness of improving the building envelope and cooling system efficiency for Ahmedabad's residential buildings.
+
+## 15.2 Thaltej District
+
+| Parameter                       |   Baseline |   Retrofit |  Reduction |
+| ------------------------------- | ---------: | ---------: | ---------: |
+| Total Site Energy (GJ)          |  651649.56 |  537968.87 | **17.44%** |
+| Total Source Energy (GJ)        | 2063774.14 | 1703747.42 | **17.44%** |
+| Site Energy Intensity (MJ/m²)   |     547.08 |     451.64 | **17.44%** |
+| Source Energy Intensity (MJ/m²) |    1732.61 |    1430.35 | **17.44%** |
+| Cooling Energy (GJ)             |  233170.63 |  158091.95 | **32.20%** |
+| Interior Lighting (GJ)          |  225382.20 |  187818.50 | **16.67%** |
+| Interior Equipment (GJ)         |  187818.50 |  187818.50 |     **0%** |
+| Fan Energy (GJ)                 |    5278.22 |    4239.92 | **19.67%** |
+
+### Summary
+
+The retrofit strategy achieved an overall reduction of approximately **17.4%** in annual site energy consumption. Cooling energy demand exhibited the largest improvement, decreasing by more than **32%**, while reductions in Energy Use Intensity (EUI) and operational carbon emissions further demonstrate the effectiveness of the proposed retrofit measures.
+
+## Overall Findings
+
+The comparative analysis demonstrates that the proposed retrofit strategy substantially improves the energy performance of residential buildings in both study areas.
+
+### Key Findings
+
+- Annual site energy reduced by **16.11%** in Navrangpura and **17.44%** in Thaltej.
+- Cooling energy demand decreased by **30.46%** and **32.20%**, respectively.
+- Energy Use Intensity (EUI) was reduced for both total and conditioned building areas.
+- Operational carbon emissions decreased proportionally with the reduction in electricity consumption.
+- Interior equipment energy remained unchanged because equipment schedules and loads were not modified during the retrofit simulations.
+- The results confirm that improvements to the building envelope and cooling system are highly effective for Ahmedabad's cooling-dominated climate.
+
