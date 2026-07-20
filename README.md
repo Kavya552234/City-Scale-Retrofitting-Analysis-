@@ -905,6 +905,8 @@ The comparative analysis demonstrates that the proposed retrofit strategy substa
 ### Key Findings
 
 - Annual site energy reduced by **16.11%** in Navrangpura and **17.44%** in Thaltej.
+
+
 - Cooling energy demand decreased by **30.46%** and **32.20%**, respectively.
 - Energy Use Intensity (EUI) was reduced for both total and conditioned building areas.
 - Operational carbon emissions decreased proportionally with the reduction in electricity consumption.
