@@ -505,8 +505,8 @@ Only the required parameters were customized, while all remaining operational pa
 ### Python Script for Dataset Enhancement
 
 <p align="center">
-<img src="Images/Additional_Json_Code.png" width="85%">
-</p>
+<img src="Images/additional_Json_Code.png" width="85%">
+</p> 
 
 *Python script developed to automatically append Ahmedabad-specific `additional_json` parameters.*
 
@@ -515,7 +515,7 @@ Only the required parameters were customized, while all remaining operational pa
 ### Updated GeoJSON Dataset
 
 <p align="center">
-<img src="Images/GeoJSON_After_Customization.png" width="85%">
+<img src="Images/Thaltej-After_adding_additional_json_code.png" width="85%">
 </p>
 
 *GeoJSON dataset after integrating the `additional_json` object into every building feature.*
@@ -577,7 +577,7 @@ Retrofit Simulation
 Performance Comparison
 
 <p align="center">
-<img src="Images/EnergyPlus_Input_Files.png" width="85%">
+<img src="Images/Energy_Plus.png" width="85%">
 </p>
 
 *Figure 11.1: EnergyPlus input model (IDF) together with the selected Ahmedabad EPW weather file.*
@@ -604,11 +604,6 @@ Two residential districts were analyzed:
 | Site EUI            | 519.89 MJ/m²  |
 | Source EUI          | 1646.49 MJ/m² |
 
-<p align="center">
-<img src="Images/Navrangpura_Baseline_PieChart.png" width="65%">
-</p>
-
-*Figure 12.1: Annual end-use energy distribution for the Navrangpura baseline model.*
 
 | End Use            | Energy (GJ) |
 | ------------------ | ----------: |
@@ -617,6 +612,12 @@ Two residential districts were analyzed:
 | Interior Equipment |   130128.51 |
 | Fans               |     3176.96 |
 | Heating            |           0 |
+
+<p align="center">
+<img src="Images/Navrangpura_end_use_pie_chart.png" width="65%">
+</p>
+
+*Figure 12.1: Annual end-use energy distribution for the Navrangpura baseline model.*
 
 ### Key Observations
 
@@ -637,12 +638,6 @@ Two residential districts were analyzed:
 | Site EUI            |  547.08 MJ/m² |
 | Source EUI          | 1732.61 MJ/m² |
 
-<p align="center">
-<img src="Images/Thaltej_Baseline_PieChart.png" width="65%">
-</p>
-
-*Figure 12.2: Annual end-use energy distribution for the Thaltej baseline model.*
-
 | End Use            | Energy (GJ) |
 | ------------------ | ----------: |
 | Cooling            |   233170.63 |
@@ -650,6 +645,12 @@ Two residential districts were analyzed:
 | Interior Equipment |   187818.50 |
 | Fans               |     5278.22 |
 | Heating            |           0 |
+
+<p align="center">
+<img src="Images/Thaltej_end_use_pie_chart.png" width="65%">
+</p>
+
+*Figure 12.2: Annual end-use energy distribution for the Thaltej baseline model.*
 
 - Cooling is the dominant end-use because of the larger residential building stock.
 - Interior lighting and equipment contribute substantially to annual electricity consumption.
@@ -661,6 +662,14 @@ Two residential districts were analyzed:
 The baseline simulations indicate that **cooling, interior lighting, and interior equipment** dominate the annual electricity consumption of residential buildings in both study areas.
 Although Thaltej exhibits higher total energy consumption than Navrangpura, this is primarily attributed to its larger building stock and conditioned floor area. When normalized using Energy Use Intensity (EUI), both districts demonstrate comparable energy performance.
 These observations highlight that improving the thermal performance of the building envelope and increasing cooling system efficiency offer the greatest potential for reducing annual energy consumption in Ahmedabad's residential sector.
+
+<p align="center">
+<img src="Images/baseline_energy_performance_comparision.png" width="80%">
+</p>
+
+<p align="center">
+<img src="Images/baseline_major_energy_consumption.png" width="80%">
+</p> 
 
 # 13. Retrofit Strategy
 
@@ -725,7 +734,7 @@ The retrofit significantly reduced the thermal transmittance (U-value) of the bu
 Lower U-values indicate reduced heat transfer through the building envelope, resulting in lower cooling demand during hot weather.
 
 <p align="center">
-<img src="Images/U_Value_Calculations.png" width="80%">
+<img src="Images/U_value_calculations.png" width="80%">
 </p>
 
 *Figure 13.3: Comparison of baseline and retrofit thermal transmittance values.*
@@ -773,23 +782,23 @@ The retrofit simulation for Navrangpura produced significant improvements in ann
 ### Performance Analysis
 
 <p align="center">
-<img src="Images/Navrangpura_Total_Site_Source_Energy.png" width="80%">
+<img src="Images/Navrangpura_site_source.png" width="80%">
 </p>
 
 <p align="center">
-<img src="Images/Navrangpura_EUI_Total_Building_Area.png" width="80%">
+<img src="Images/Navrangpura_eui_total_building.png" width="80%">
 </p>
 
 <p align="center">
-<img src="Images/Navrangpura_EUI_Conditioned_Area.png" width="80%">
+<img src="Images/Navrangpura_EUI_Conditioned_building_area.png" width="80%">
 </p>
 
 <p align="center">
-<img src="Images/Navrangpura_Cooling_Load.png" width="80%">
+<img src="Images/Navrangpura_cooling_load.png" width="80%">
 </p>
 
 <p align="center">
-<img src="Images/Navrangpura_Operational_Carbon.png" width="80%">
+<img src="Images/navrangpura_operational_carbon.png" width="80%">
 </p>
 
 ### Key Observations
@@ -897,6 +906,22 @@ The retrofit strategy reduced annual site energy consumption by approximately **
 ### Summary
 
 The retrofit strategy achieved an overall reduction of approximately **17.4%** in annual site energy consumption. Cooling energy demand exhibited the largest improvement, decreasing by more than **32%**, while reductions in Energy Use Intensity (EUI) and operational carbon emissions further demonstrate the effectiveness of the proposed retrofit measures.
+
+<p align="center">
+<img src="Images/retrofit_energy_performance_comparision.png" width="80%">
+</p> 
+
+<p align="center">
+<img src="Images/retrofit_major_energy_consumption.png" width="80%">
+</p>
+
+<p align="center">
+<img src="Images/retrofit_percentage_energy_Reduction.png" width="80%">
+</p> 
+
+<p align="center">
+<img src="Images/energy_intensity_comparision.png" width="80%">
+</p>  
 
 ## Overall Findings
 
