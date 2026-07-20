@@ -471,47 +471,52 @@ The selected dataset represents weather observations from **2009–2023**, provi
 
 ---
 
-# Current Progress
+## Python-Based Dataset Enhancement
 
-- Studied theoretical concepts of building energy retrofitting
+The exported GeoJSON datasets contained only the geometric and basic building attributes required by CityBES. However, to accurately represent Ahmedabad residential buildings, additional operational parameters had to be incorporated into every building feature.
 
-- Explored CityBES platform
+Manually editing thousands of building records was impractical and error-prone. Therefore, a Python automation script was developed to append the required `additional_json` object to each building in the GeoJSON dataset.
 
-- Explored multiple GIS and satellite data sources
+The script automatically iterates through every building feature and inserts Ahmedabad-specific operational parameters while preserving the original geometry and attributes.
 
-- Selected OpenStreetMap as primary GIS dataset
+### Parameters Added
 
-- Prepared residential building datasets
+| Parameter | Purpose |
+|-----------|---------|
+| HVAC System Type | Specifies the cooling system used in simulations |
+| Cooling COP | Defines cooling system efficiency |
+| Cooling Thermostat Setpoint | Indoor cooling temperature |
+| Heating Thermostat Setpoint | Default heating setpoint |
+| Cooling Schedule | Daily cooling operation schedule |
+| Heating Schedule | Daily heating schedule |
+| Window U-value | Thermal transmittance of glazing |
+| Window SHGC | Solar Heat Gain Coefficient |
 
-- Generated building attributes
+Only the required parameters were customized, while all remaining operational parameters retained the default CityBES prototype values.
 
-- Estimated building heights
+### Advantages
 
-- Classified residential buildings by size
+- Eliminated repetitive manual editing
+- Ensured consistency across all buildings
+- Reduced the possibility of human error
+- Generated simulation-ready datasets for EnergyPlus
+- Simplified future modifications of operational parameters
 
-- Prepared weather dataset
+### Python Script for Dataset Enhancement
 
-- Preparing benchmark building energy dataset
+<p align="center">
+<img src="Images/Additional_Json_Code.png" width="85%">
+</p>
+
+*Python script developed to automatically append Ahmedabad-specific `additional_json` parameters.*
 
 ---
 
-# Next Phase
+### Updated GeoJSON Dataset
 
-The next stage of the project includes:
+<p align="center">
+<img src="Images/GeoJSON_After_Customization.png" width="85%">
+</p>
 
-- Preparing benchmark building energy parameters
-- Uploading prepared datasets into CityBES
-- Running baseline energy simulations
-- Developing retrofit scenarios
-- Applying Energy Conservation Measures (ECMs)
-- Comparing baseline and retrofit energy performance
-- Estimating energy savings
-- Estimating operational carbon emission reductions
+*GeoJSON dataset after integrating the `additional_json` object into every building feature.*
 
----
-
-# Repository Status
-
-🚧 Project currently under development.
-
-The repository will be continuously updated as additional CityBES simulations and retrofit analyses are completed.
