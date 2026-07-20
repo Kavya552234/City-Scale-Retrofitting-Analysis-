@@ -742,3 +742,116 @@ The baseline and retrofit construction assemblies used in the EnergyPlus simulat
 
 The selected retrofit measures improve the thermal resistance of the building envelope and reduce unwanted heat transfer into the building. These modifications were incorporated into the EnergyPlus models to evaluate their impact on annual energy consumption under Ahmedabad's climatic conditions.
 
+# 14. Retrofit Simulation Results
+
+After implementing the selected retrofit measures, annual EnergyPlus simulations were performed for both residential districts under identical climatic conditions. The retrofit models were evaluated using the same weather file and operating schedules as the baseline models to ensure a fair comparison.
+
+The simulation results demonstrate the improvements achieved in overall building energy performance after implementing the retrofit strategy.
+
+## 14.1 Navrangpura District
+
+The retrofit simulation for Navrangpura produced significant improvements in annual energy performance.
+
+### Annual Energy Performance
+
+| Parameter               |         Value |
+| ----------------------- | ------------: |
+| Total Building Area     |  825269.59 m² |
+| Conditioned Area        |  412634.79 m² |
+| Total Site Energy       |  359939.78 GJ |
+| Site Energy Intensity   |  436.15 MJ/m² |
+| Total Source Energy     | 1139929.29 GJ |
+| Source Energy Intensity | 1381.28 MJ/m² |
+
+| End Use            | Energy (GJ) |
+| ------------------ | ----------: |
+| Cooling            |    97069.89 |
+| Interior Lighting  |   130128.51 |
+| Interior Equipment |   130128.51 |
+| Fans               |     2612.87 |
+
+### Performance Analysis
+
+<p align="center">
+<img src="Images/Navrangpura_Total_Site_Source_Energy.png" width="80%">
+</p>
+
+<p align="center">
+<img src="Images/Navrangpura_EUI_Total_Building_Area.png" width="80%">
+</p>
+
+<p align="center">
+<img src="Images/Navrangpura_EUI_Conditioned_Area.png" width="80%">
+</p>
+
+<p align="center">
+<img src="Images/Navrangpura_Cooling_Load.png" width="80%">
+</p>
+
+<p align="center">
+<img src="Images/Navrangpura_Operational_Carbon.png" width="80%">
+</p>
+
+### Key Observations
+
+- Significant reduction in annual site and source energy.
+- Cooling energy demand decreased substantially.
+- Lower Energy Use Intensity indicates improved building performance.
+- Operational carbon emissions decreased due to lower electricity consumption.
+
+## 14.2 Thaltej District
+
+The retrofit simulation for Thaltej produced significant improvements in annual energy performance.
+
+| Parameter           |         Value |
+| ------------------- | ------------: |
+| Total Building Area | 1191137.13 m² |
+| Conditioned Area    |  595568.57 m² |
+| Total Site Energy   |  537968.87 GJ |
+| Site EUI            |  451.64 MJ/m² |
+| Total Source Energy | 1703747.42 GJ |
+| Source EUI          | 1430.35 MJ/m² |
+
+| End Use            | Energy (GJ) |
+| ------------------ | ----------: |
+| Cooling            |   158091.95 |
+| Interior Lighting  |   187818.50 |
+| Interior Equipment |   187818.50 |
+| Fans               |     4239.92 |
+
+### Performance Analysis
+
+<p align="center">
+<img src="Images/Thaltej_Total_Site_Source_Energy.png" width="80%">
+</p>
+
+<p align="center">
+<img src="Images/Thaltej_EUI_Total_Building_Area.png" width="80%">
+</p>
+
+<p align="center">
+<img src="Images/Thaltej_EUI_Conditioned_Area.png" width="80%">
+</p>
+
+<p align="center">
+<img src="Images/Thaltej_Cooling_Load.png" width="80%">
+</p>
+
+<p align="center">
+<img src="Images/Thaltej_Operational_Carbon.png" width="80%">
+</p>
+
+### Key Observations
+
+- Retrofit measures significantly improved overall energy performance.
+- Cooling energy showed the highest reduction among all end uses.
+- Lower site and source energy demonstrate improved efficiency.
+- Reduced operational carbon emissions highlight the environmental benefits of the retrofit strategy.
+
+## Overall Analysis
+
+The retrofit simulations demonstrate that improvements to the building envelope and building systems significantly reduce annual energy consumption for residential buildings in Ahmedabad.
+
+Both Navrangpura and Thaltej exhibited lower site energy, source energy, Energy Use Intensity (EUI), cooling demand, and operational carbon emissions after retrofit implementation. These improvements confirm the effectiveness of the proposed retrofit strategy under Ahmedabad's hot climatic conditions.
+
+The detailed quantitative comparison between the baseline and retrofit models is presented in the following section.
