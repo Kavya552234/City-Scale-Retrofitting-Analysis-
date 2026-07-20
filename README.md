@@ -528,12 +528,6 @@ The validated building models were configured with the selected **Ahmedabad Typi
 
 Subsequently, retrofit models were prepared by modifying the required building and system parameters. These models were simulated under the same climatic conditions to enable a direct comparison with the baseline case.
 
-The complete simulation workflow is illustrated below.
-
-<p align="center">
-<img src="Images/EnergyPlus_Workflow.png" width="85%">
-</p>
-
 ---
 
 ## Simulation Inputs
@@ -586,7 +580,7 @@ Performance Comparison
 <img src="Images/EnergyPlus_Input_Files.png" width="85%">
 </p>
 
-*EnergyPlus input model (IDF) together with the selected Ahmedabad EPW weather file.*
+*Figure 11.1: EnergyPlus input model (IDF) together with the selected Ahmedabad EPW weather file.*
 
 # 12. Baseline Energy Simulation Results
 
@@ -667,4 +661,84 @@ Two residential districts were analyzed:
 The baseline simulations indicate that **cooling, interior lighting, and interior equipment** dominate the annual electricity consumption of residential buildings in both study areas.
 Although Thaltej exhibits higher total energy consumption than Navrangpura, this is primarily attributed to its larger building stock and conditioned floor area. When normalized using Energy Use Intensity (EUI), both districts demonstrate comparable energy performance.
 These observations highlight that improving the thermal performance of the building envelope and increasing cooling system efficiency offer the greatest potential for reducing annual energy consumption in Ahmedabad's residential sector.
+
+# 13. Retrofit Strategy
+
+After evaluating the baseline energy performance of the residential buildings, a retrofit strategy was developed to improve overall energy efficiency while remaining practical for existing buildings.
+
+The retrofit focused on improving the thermal performance of the building envelope and increasing the efficiency of building systems. The selected measures were implemented in the EnergyPlus simulation models and compared with the baseline case to quantify their impact on annual energy consumption.
+
+## 13.1 Selected Energy Conservation Measures (ECMs)
+
+The following Energy Conservation Measures (ECMs) were incorporated into the retrofit model.
+
+| Category | Baseline | Retrofit |
+|----------|----------|----------|
+| Wall Construction | Masonry Wall | Masonry + PUF Insulation |
+| Roof Construction | RCC Roof | RCC + PUF Insulation |
+| Window System | Single Glazing | Vacuum Insulated Glazing (VIG) |
+| Cooling System | COP = 3.8 | COP = 4.5 |
+| Lighting Power Density | 6 W/m² | 5 W/m² |
+
+## 13.2 Why Polyurethane Foam (PUF)?
+
+Polyurethane Foam (PUF) insulation was selected because of its excellent thermal performance and suitability for retrofitting existing buildings.
+
+### Advantages
+
+- Very low thermal conductivity (0.024 W/m·K)
+- Excellent thermal insulation performance
+- Lightweight construction
+- Low moisture absorption
+- Easy installation on existing buildings
+- Suitable for hot climatic conditions
+- Long service life
+
+<p align="center">
+<img src="Images/PUF_Insulation.png" width="70%">
+</p>
+
+*Figure 13.2: Polyurethane Foam (PUF) insulation used for the retrofit strategy.*
+
+## 13.3 External Insulation
+
+External insulation was adopted to create a continuous thermal envelope around the building.
+
+Compared with internal insulation, external insulation offers several advantages:
+
+- Minimizes thermal bridges
+- Preserves indoor floor area
+- Causes minimal disturbance to occupants
+- Improves overall thermal performance
+- Suitable for retrofit applications
+
+## 13.4 Thermal Performance Improvement
+
+The retrofit significantly reduced the thermal transmittance (U-value) of the building envelope.
+
+| Construction | Baseline U-value | Retrofit U-value |
+|--------------|----------------:|----------------:|
+| Wall | 1.27 W/m²·K | 0.30 W/m²·K |
+| Roof | 1.14 W/m²·K | 0.28 W/m²·K |
+| Window | 5.905 W/m²·K | 0.60 W/m²·K |
+
+Lower U-values indicate reduced heat transfer through the building envelope, resulting in lower cooling demand during hot weather.
+
+<p align="center">
+<img src="Images/U_Value_Calculations.png" width="80%">
+</p>
+
+*Figure 13.3: Comparison of baseline and retrofit thermal transmittance values.*
+
+## 13.5 Construction Assemblies
+
+The baseline and retrofit construction assemblies used in the EnergyPlus simulations are summarized below.
+
+| Building Component | Baseline | Retrofit |
+|--------------------|----------|----------|
+| Wall | Masonry | Masonry + PUF |
+| Roof | RCC | RCC + PUF |
+| Window | Single Glazing | Vacuum Insulated Glazing |
+
+The selected retrofit measures improve the thermal resistance of the building envelope and reduce unwanted heat transfer into the building. These modifications were incorporated into the EnergyPlus models to evaluate their impact on annual energy consumption under Ahmedabad's climatic conditions.
 
