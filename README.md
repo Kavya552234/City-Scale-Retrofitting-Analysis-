@@ -3,11 +3,18 @@
 ![Internship](https://img.shields.io/badge/Internship-SWA%20Consultancy-darkgreen)
 ![Project](https://img.shields.io/badge/Project-City--Scale%20Retrofitting-blue)
 ![QGIS](https://img.shields.io/badge/QGIS-3.40-green?logo=qgis)
-![CityBES](https://img.shields.io/badge/Platform-CityBES-orange)
 ![GIS](https://img.shields.io/badge/GIS-Urban%20Energy%20Modeling-success)
 ![OpenStreetMap](https://img.shields.io/badge/Data-OpenStreetMap-brightgreen?logo=openstreetmap)
 ![GeoPackage](https://img.shields.io/badge/Format-GeoPackage-lightgrey)
 ![TMYx](https://img.shields.io/badge/Weather-TMYx%202009--2023-blue)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Simulation](https://img.shields.io/badge/Simulation-EnergyPlus%2026.1-orange) 
+![CityBES](https://img.shields.io/badge/Platform-CityBES-red)
+![UBEM](https://img.shields.io/badge/UBEM-Urban%20Building%20Energy%20Modeling-success)
+![OpenStreetMap](https://img.shields.io/badge/Data-OpenStreetMap-brightgreen?logo=openstreetmap)
+![GeoJSON](https://img.shields.io/badge/Format-GeoJSON-lightgrey)
+![GitHub](https://img.shields.io/badge/Version%20Control-GitHub-black?logo=github)
+
 
 <p align="center">
 <img src="Assets/images/swa_consultancy_logo.png" width="250">
