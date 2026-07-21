@@ -11,7 +11,6 @@
 ![Simulation](https://img.shields.io/badge/Simulation-EnergyPlus%2026.1-orange) 
 ![CityBES](https://img.shields.io/badge/Platform-CityBES-red)
 ![UBEM](https://img.shields.io/badge/UBEM-Urban%20Building%20Energy%20Modeling-success)
-![OpenStreetMap](https://img.shields.io/badge/Data-OpenStreetMap-brightgreen?logo=openstreetmap)
 ![GeoJSON](https://img.shields.io/badge/Format-GeoJSON-lightgrey)
 ![GitHub](https://img.shields.io/badge/Version%20Control-GitHub-black?logo=github)
 
